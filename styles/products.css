@@ -1,0 +1,220 @@
+
+/* Hero Image */
+.hero-image {
+  background-image: url("/assets/ELEMENTS/ELEMENTS_PRODUCTOS-12.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100%;
+  height: 100vh; */
+}
+.container-hero-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-image__img {
+ position: relative;
+ width: 100%;
+}
+.hero-image__img > img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  right: 100px;
+  /* overflow: hidden; */
+}
+
+.hero-image__title {
+  font-family: var(--font);
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Seccion de productos */
+.products {
+  background-image: url("/assets/ELEMENTS_HOME/ELEMENTS_HOME-18.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.products__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.products__img > div {
+  width: 15%;
+  height: 200px;
+}
+.eslogan__img > img {
+  width: 100%;
+  height: auto;
+}
+.products__title {
+  font-size: 2rem;
+  color: var(--first-color);
+  /* width: 100%;
+    height: auto; */
+}
+.products__description {
+  font-size: 1rem;
+  color: white;
+}
+/* Seccion de galeria  */
+.galery {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  margin-top: 100px;
+}
+.galery__title {
+  color: var(--first-color);
+  font-size: 2rem;
+  text-align: center;
+}
+.galery__subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.galery__productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 10px;
+  margin-top: 50px;
+}
+.galery__item > img {
+  border-radius: 30px;
+}
+.product__description,
+.product__category,
+.product__price {
+  font-size: 1rem;
+  text-align: center;
+}
+.product__category {
+  color: var(--color-category);
+}
+.product__price {
+  color: var(--first-color);
+}
+
+/* Formulario de contacto */
+.form-contact {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+.form-contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 2rem;
+}
+.form-contact__title {
+  width: 50%;
+  color: var(--first-color);
+  font-size: 3rem;
+  text-align: center;
+}
+.form-contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container-form-contact__form {
+  width: 50%;
+}
+.form-contact__form {
+  width: 100%;
+}
+.form-contact__form > input,
+.form-contact__form > textarea {
+  width: 80%;
+  margin: 0.5rem 0;
+  background-color: var(--color-category);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.form-contact__form > input,
+.form-contact__form > textarea {
+  padding: 0.5rem;
+}
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+}
+.form-contact__form > input::placeholder,
+.form-contact__form > textarea::placeholder {
+  color: white;
+}
+.form-contact__form > button {
+  background-color: var(--first-color);
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: auto;
+  border: none;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-main__map {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 2px; */
+}
+.footer-main__map > a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+.footer__main__privacity {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 10px; */
+}
+.footer__main__privacity > a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+.footer-main__network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main-menu__link {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+@media (max-width: 500px) {
+  .footer-main {
+    flex-direction: column;
+  }
+}

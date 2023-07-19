@@ -1,0 +1,130 @@
+
+/* Estilos propios */
+.header{
+    background-image: url("/assets/ELEMENTS-CONTACT/MESA_TRABAJO.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-title__title{
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.container-title__title--1{color: var(--first-color);  }
+.container-title__title--2{ color: white; }
+
+
+
+/* Formulario de contacto */
+.form-contact {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin-top: var(--margen-top);
+}
+.form-contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 2rem;
+}
+.form-contact__title {
+  width: 50%;
+  color: var(--first-color);
+  font-size: 3rem;
+  text-align: center;
+}
+.form-contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container-form-contact__form {
+  width: 50%;
+}
+.form-contact__form {
+  width: 100%;
+}
+.form-contact__form > input,
+.form-contact__form > textarea {
+  width: 80%;
+  margin: 0.5rem 0;
+  background-color: var(--color-category);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.form-contact__form > input,
+.form-contact__form > textarea {
+  padding: 0.5rem;
+}
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+}
+.form-contact__form > input::placeholder,
+.form-contact__form > textarea::placeholder {
+  color: white;
+}
+.form-contact__form > button {
+  background-color: var(--first-color);
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: auto;
+  border: none;
+}
+
+/* Seccion de testiomoniales */
+.testimonials{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+.testimonials__title{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--first-color);
+    margin-top: var(--margen-parrafos);
+}
+.testimonials__description{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: var(--margen-parrafos);
+
+}
+.testimonials__container{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: var(--margen-top);
+
+}
+.testimonials__item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+.testimonials__item-opinion{
+    text-align: center;
+    margin: .5rem 0;
+}
+.testimonials__item-author{
+    text-align: center;
+    margin: .5rem 0;
+}

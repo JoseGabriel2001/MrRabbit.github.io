@@ -1,0 +1,212 @@
+.header {
+  background-image: url("/assets/ELEMENTS_HOME/MESA_TRABAJO.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.main-menu {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  /* margin-top: 15rem; */
+  /* border: 2px solid blue; */
+  padding-top: 10px;
+}
+.main-menu__item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.main-menu__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.main-menu__item--social-media {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  right: 40px;
+}
+
+.main-menu__item--social-media > a {
+  padding: 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.tiktok {
+  margin: 0;
+  padding: 0;
+}
+.tiktok > img {
+  width: 15px;
+  height: auto;
+  color: var(--first-color);
+}
+.container-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  width: calc(100% / 4);
+  height: 100%;
+}
+
+.container-hero__description {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.container-hero__description > h2 {
+  font-size: 3rem;
+  background-color: white;
+  display: inline-block;
+}
+.container-hero__description > p {
+  font-size: 4rem;
+  color: white;
+}
+.container-hero__img {
+  position: relative;
+}
+.container-hero__img > img {
+  width: 600px;
+  height: auto;
+}
+/* CAROUSEL DE IMAGENES */
+/* ************************************************************ */
+.container-carousel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66); */
+  border-radius: 15px;
+  overflow: hidden;
+}
+.carruseles {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+.puntos{
+  width: 100%;
+  /* background-color: red; */
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.punto{
+  width: 1em;
+  height: 1em;
+  margin: 1rem 1em 0;
+  background-color: var(--color-category);
+  border-radius: 50%;
+}
+
+.activo{
+  background-color: black;
+}
+
+/* ESLOGAN */
+.eslogan {
+  background-image: url("/assets/ELEMENTS_HOME/ELEMENTS_HOME-14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eslogan-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.eslogan__img {
+  position: relative;
+}
+
+.eslogan__img div {
+  position: absolute;
+  right: 0;
+}
+.eslogan__description {
+  width: 50%;
+  font-size: 3rem;
+  width: 80%;
+  text-align: left;
+  color: white;
+}
+
+/* DESCRIPCION DE LA EMPRESA */
+
+.description {
+  background-image: url("/assets/ELEMENTS_HOME/ELEMENTS_HOME-17.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.description__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.description__img {
+  height: auto;
+  width: 100px;
+}
+.description__text {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+/* PRODUCTOS */
+
+.products {
+  background-image: url("/assets/ELEMENTS_HOME/ELEMENTS_HOME-18.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.products__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.products__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.products__img > div {
+  width: 15%;
+  height: 200px;
+}
+.products__title {
+  font-size: 2rem;
+  color: var(--first-color);
+  /* width: 100%;
+  height: auto; */
+}
+.products__description {
+  font-size: 1rem;
+  color: white;
+}

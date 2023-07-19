@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&display=swap");
+
+:root {
+  --first-color: #31a269;
+  --color: #000;
+  --font: "Montserrat Alternates", sans-serif;
+  --color-onion: #c1749c;
+  --color-corn: #f5ea60;
+  --color-letuce: #9bc21d;
+  --color-category: #ccd6d6;
+  --margen-top: 4rem;
+  --margen-parrafos: 2rem;
+}
+
+/* Reseteo de los estilos */
+
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--color);
+}
+
+a {
+  color: var(--color);
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  color: var(--first-color);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
